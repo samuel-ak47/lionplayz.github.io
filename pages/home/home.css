@@ -1,0 +1,125 @@
+
+
+#splash {
+  display: block;
+  z-index: 500;
+  background-image: url("../../assets/elements/Logo-Slogan.svg"), url("../../assets/backdrops/robot-opaque.jpg");
+  background-size: clamp(300px, 80%, 1100px) auto, cover;
+  background-repeat: no-repeat, no-repeat;
+  background-attachment: scroll;
+  background-position: center, center;
+  box-shadow: 0px 6px 8px rgba(22, 22, 113, 0.8);
+  border-radius: 1.5rem;
+  min-height: 35vw;
+  max-height: 50rem;
+  margin: 2vw 2vw 0vw 2vw;
+}
+
+.prime_sect {
+  padding-top: 5rem;
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  background-color: rgba(22, 22, 113, 0.5);
+  border-bottom-left-radius: 1.5rem;
+  border-bottom-right-radius: 1.5rem;
+}
+
+.secondary_sect {
+  padding-top: 0rem;
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  background-color: rgba(22, 22, 113, 0.5);
+  border-radius: 1.5rem;
+}
+
+.third_sect {
+  padding-top: 0rem;
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  background-color: rgba(22, 22, 113, 0.5);
+  border-radius: 1.5rem;
+}
+
+.prime_sect_text_port {
+  display: inline-block;
+  text-align: center;
+  font-size: 2rem;
+  color: white;
+  width: clamp(20rem, 80%, 50rem);
+  margin: 0 auto;
+  vertical-align: middle;
+  padding: 2rem;
+  background-color: rgba(22, 22, 113, 0.7);
+  border-radius: 1.5rem;
+}
+
+.prime_sect_img_port {
+  display: inline-block;
+  vertical-align: middle;
+  width: clamp(30rem, 80%, 80rem);
+  margin: 3rem auto;
+  padding: 0.5rem;
+  border-radius: 1.5rem;
+}
+
+.secondary_sect_text_port {
+  display: inline-block;
+  text-align: center;
+  font-size: 2rem;
+  color: white;
+  width: clamp(20rem, 80%, 50rem);
+  margin: 0 auto 3rem;
+  vertical-align: middle;
+  padding: 2rem;
+  background-color: rgba(22, 22, 113, 0.7);
+  border-radius: 1.5rem;
+}
+
+.secondary_sect_img_port {
+  display: inline-block;
+  vertical-align: middle;
+  width: clamp(30rem, 80%, 80rem);
+  margin: 3rem auto;
+  padding: 0.5rem;
+  border-radius: 1.5rem;
+}
+
+.third_sect_text_port {
+  display: inline-block;
+  text-align: center;
+  font-size: 2rem;
+  color: white;
+  width: clamp(20rem, 80%, 50rem);
+  margin: 3rem auto;
+  vertical-align: middle;
+  padding: 2rem;
+  background-color: rgba(22, 22, 113, 0.7);
+  border-radius: 1.5rem;
+}
+
+.third_sect_img_port {
+  display: inline-block;
+  vertical-align: middle;
+  width: clamp(30rem, 80%, 80rem);
+  margin: 3rem auto;
+  padding: 0.5rem;
+  border-radius: 1.5rem;
+}
+
+.sect_header {
+  padding: 2rem;
+}
+
+.divider {
+  display: flex;
+  color: #ffc90e;
+  border-radius: 1.5rem;
+  width: clamp(30rem, 80%, 120rem);
+  margin: 5rem auto 5rem auto;
+}
