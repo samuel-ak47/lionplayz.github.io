@@ -1,0 +1,46 @@
+
+
+.holder {
+    padding-top: 7rem;
+    padding-bottom: 7rem;
+    width: auto;
+    margin-left: 0.1rem;
+    margin-right: 0.1rem;
+    text-align: center;
+    border-radius: 1.5rem;
+  }
+
+  .backdrop {
+    display: inline-block;
+    text-align: center;
+    font-size: 2rem;
+    color: white;
+    width: clamp(20rem, 80%, 75rem);;
+    margin: 0 auto;
+    vertical-align: middle;
+    padding: 1.5rem;
+    background-color: rgba(22, 22, 113, 0.7);
+    border-radius: 1.5rem;
+  }
+
+  .error_title {
+    padding: 1.5rem;
+    font-size: 95%;
+  }
+
+  .error_msg {
+    font-size: 80%;
+  }
+
+  .error_fix {
+    padding: 1.5rem;
+    font-size: 80%;
+  }
+  
+  .divider {
+    display: flex;
+    color: #ffc90e;
+    border-radius: 4rem;
+    width: 70%;
+    margin: 3rem auto 3rem auto;
+  }

@@ -10,7 +10,7 @@
     border-radius: 1.5rem;
   }
 
-  .prime_sect_text_port {
+  .backdrop {
     display: inline-block;
     text-align: center;
     font-size: 2rem;
@@ -43,8 +43,4 @@
     border-radius: 4rem;
     width: 70%;
     margin: 3rem auto 3rem auto;
-  }
-
-  footer {
-    position: fixed;
   }
