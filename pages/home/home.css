@@ -8,8 +8,7 @@
   background-position: center, center;
   box-shadow: 0px 6px 8px rgba(22, 22, 113, 0.8);
   border-radius: 1.5rem;
-  min-height: 35vw;
-  max-height: 50rem;
+  min-height: calc(15em + 15vw);
   margin: 2vw 2vw 0vw 2vw;
 }
 
@@ -28,18 +27,29 @@
   background-color: rgba(22, 22, 113, 0.8);
   background-size: 50rem auto;
   margin: 0 auto;
-  width: 90%;
+  width: 95%;
   border-radius: 0 0 1.5rem 1.5rem;
 }
 
 .portion {
   padding: 5rem 2rem 5rem 2rem;
+  margin: 3rem;
   text-align: center;
+  background-color: rgba(22, 22, 113, 0.85);
+  border-radius: 1.5rem;
+}
+
+#portion1 {
+  margin-top: 0rem;
+  border-top-left-radius: 0rem;
+  border-top-right-radius: 0rem;
 }
 
 .split {
   display: inline-block;
   height: auto;
+  margin-left: 5%;
+  margin-right: 5%;
 }
 
 .elem {
@@ -51,15 +61,34 @@
   margin-left: auto;
   margin-right: auto;
   color: white;
-  font-size: 2rem;
+  font-size: 2.5rem;
+
+  padding: 0.2rem;
+  background-color: rgb(255, 173, 20);
+  border-radius: 1.5rem;
+}
+
+.txt * {
+  padding: 0.6rem;
+  text-shadow: 2px 2px 2px #191919;
 }
 
 .elem p {
-  max-width: 500px;
+  display: grid;
+  align-items: center;
+  max-width: 50rem;
+}
+
+.elem h1 {
+  display: grid;
+  align-items: center;
+  font-size: 3rem;
+  max-width: 50rem;
 }
 
 .elem  img{
   display: inline-block;
-  width: 500px;
-  vertical-align: center;
+  width: 75rem;
+  vertical-align: middle;
+  border-radius: 1.5rem;
 }

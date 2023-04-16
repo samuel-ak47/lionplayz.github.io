@@ -162,7 +162,7 @@ li.move-right{
 .btn{
     padding: 1.3rem;
     display: inline-block;
-    background-color: #ffc90e;
+    background-color: rgb(255, 173, 20);
     border: 2px solid #ffc90e;
     border-radius: 1.5rem;
     transition: background-color 325ms;
@@ -232,7 +232,7 @@ footer {
 }
 
 #social {
-  background-color: rgba(255, 201, 14, 1);
+  background-color: rgb(255, 173, 20);
   border-top-left-radius: 1.5rem;
   border-top-right-radius: 1.5rem;
   min-width: 30rem;
