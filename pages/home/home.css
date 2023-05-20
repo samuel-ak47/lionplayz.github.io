@@ -24,7 +24,7 @@
 
 .holder {
   position: relative;
-  background-color: rgba(22, 22, 113, 0.8);
+  /*background-color: rgba(22, 22, 113, 0.8);*/
   background-size: 50rem auto;
   margin: 0 auto;
   width: 95%;
@@ -54,12 +54,11 @@
 
 .elem {
   display: inline;
+  position: relative;
   text-align: center;
 }
 
 .elem > * {
-  margin-left: auto;
-  margin-right: auto;
   color: white;
   font-size: 2.5rem;
 
@@ -70,7 +69,7 @@
 
 .txt * {
   padding: 0.6rem;
-  text-shadow: 2px 2px 2px #191919;
+  text-shadow: 2.5px 2.5px 8px #191919;
 }
 
 .elem p {
@@ -86,9 +85,43 @@
   max-width: 50rem;
 }
 
-.elem  img{
+.elem img {
   display: inline-block;
   width: 75rem;
   vertical-align: middle;
   border-radius: 1.5rem;
+  transition: 1s;
 }
+
+/*.elem img:hover {
+  opacity: 0.8;
+  filter: blur(2px);
+}*/
+
+.elem a {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  opacity: 0;
+  transition: .5s ease;
+  background-color: rgba(255, 173, 20, 1);
+  text-shadow: 2.5px 2.5px 8px #191919;
+  border-color: blue;
+  padding: 1rem;
+}
+
+.elem:hover img {
+  opacity: 0.8;
+  filter: blur(2px);
+}
+
+.elem:hover a {
+  opacity: 1;
+  padding: 2rem;
+  border-width: 5rem;
+
+}
+
+
+
