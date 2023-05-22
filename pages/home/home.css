@@ -93,11 +93,6 @@
   transition: 1s;
 }
 
-/*.elem img:hover {
-  opacity: 0.8;
-  filter: blur(2px);
-}*/
-
 .elem a {
   position: absolute;
   top: 50%;
@@ -123,10 +118,34 @@
 
 .elem a:hover {
   opacity: 1;
-  padding: 5rem;
   border: 10px solid rgb(255, 194, 81);
   background-color: rgba(22, 22, 113, 0.8);
   color: #ffc90e;
+}
+
+@media screen and (max-width: 1775px) {
+
+  .position {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .elem:hover a {
+    opacity: 0.9;
+    padding: 1.2rem;
+  }
+
+  .elem:hover img {
+    filter: blur(0px);
+    opacity: 1;
+  }
+
+  .elem a {
+    display: flex;
+    flex-direction: column;
+    opacity: 1;
+    position: inherit;
+  }
 }
 
 
