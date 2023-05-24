@@ -168,9 +168,12 @@
     display: block;
     position: relative;
     opacity: 1;
-    font-size: clamp(4vw, 20%, 7vw);
     background-color: rgba(22, 22, 113, 1);
     box-shadow: 0.3rem 0.3rem 1rem rgb(255, 255, 255);
+  }
+
+  .btntxt {
+    font-size: clamp(0rem, 5vw, 5rem);
   }
 
   .txt {
@@ -178,12 +181,17 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    font-size: clamp(4vw, 80%, 3rem);
+    font-size: clamp(0rem, 4vw, 3rem);
     border-radius: 1.5rem 1.5rem 0 0;
   }
 
   .txt h1 {
-    font-size: clamp(5vw, 80%, 50rem);
+    font-size: clamp(0rem, 5vw, 5rem);
+    max-width: 80%;
+  }
+
+  .txt p {
+    max-width: 80%;
   }
 }
 
