@@ -125,9 +125,21 @@
 
 @media screen and (max-width: 1775px) {
 
-  .position {
+  .portion {
     display: flex;
     flex-direction: column;
+  }
+
+  #portion2 {
+    flex-direction: column-reverse;
+  }
+
+  #portion4 {
+    flex-direction: column-reverse;
+  }
+
+  .elem {
+    all: unset;
   }
   
   .elem:hover a {
@@ -141,10 +153,7 @@
   }
 
   .elem a {
-    display: flex;
-    flex-direction: column;
     opacity: 1;
-    position: inherit;
   }
 }
 
